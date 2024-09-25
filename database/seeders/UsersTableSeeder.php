@@ -20,11 +20,11 @@ class UsersTableSeeder extends Seeder
         // Create super admin account
         $adminUser = User::create([
             'name' => 'SuperAdmin',
-            'email' => 'admin@ezbus.com',
-            'password' => Hash::make('admin123'),
+            'email' => 'admin@tranzo.com',
+            'password' => Hash::make('tranzo225#'),
             'role' => 0,
             'status_id' => 1,
-            'uid' => "i5jvrJJgdyaoQaqhxgQNP1G1TLH2"
+            'uid' => "hLKE79LqQgSDQ62AxTb1JSg2neu1"
         ]);
         $this->storeAvatar($adminUser);
     }

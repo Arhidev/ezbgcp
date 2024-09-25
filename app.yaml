@@ -3,8 +3,13 @@ env: flex
 
 runtime_config:
     operating_system: "ubuntu22"
-    document_root: public
+    document_root: public/backend
 
+# Autres configurations pour ton app
+handlers:
+  - url: /.*
+    script: auto
+    
 # Ensure we skip ".env", which is only for local development
 skip_files: 
     - .env
