@@ -1,0 +1,28 @@
+runtime: php
+env: flex
+
+runtime_config:
+    operating_system: "ubuntu22"
+    document_root: .
+
+# Ensure we skip ".env", which is only for local development
+skip_files: 
+    - .env
+
+automatic_scaling:
+    min_num_instances: 1
+    max_num_instances: 1
+
+resources:
+    cpu: 2
+    memory_gb: 4
+    disk_size_gb: 100
+
+env_variables:
+    # Put production environment variables here.
+    APP_DEBUG: true
+    APP_ENV: production
+    APP_KEY: base64:m8ExcdMhs0SQvhDtULTYsTDg50mSxO5p2nMNHS9dNF0=
+    APP_NAME: "GCP App - CODE"
+
+    LOG_LEVEL: debug

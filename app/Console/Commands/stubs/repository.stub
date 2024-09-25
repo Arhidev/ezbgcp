@@ -1,0 +1,29 @@
+<?php
+
+namespace App\Repository\Eloquent;
+
+use App\Models\{{MyName}};
+use App\Repository\{{MyName}}RepositoryInterface;
+
+
+/**
+ * Class {{MyName}}Repository.
+ */
+class {{MyName}}Repository extends BaseRepository implements {{MyName}}RepositoryInterface
+{
+    /**
+     * @var {{MyName}}
+     */
+    protected $model;
+
+    /**
+     * BaseRepository constructor.
+     *
+     * @param {{MyName}} $model
+     */
+    public function __construct({{MyName}} $model)
+    {
+        $this->model = $model;
+    }
+}
+

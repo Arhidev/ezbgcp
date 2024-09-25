@@ -1,0 +1,51 @@
+{
+  "name": "ez-bus",
+  "description": "City bus tracking system",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/js": "^5.9.55",
+    "@vue/composition-api": "^1.3.3",
+    "@vuetify/cli-plugin-utils": "^0.0.9",
+    "apexcharts": "^3.27.3",
+    "axios": "^0.25.0",
+    "core-js": "^3.6.5",
+    "firebase": "^9.6.3",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.6.2",
+    "vue-browser-detect-plugin": "^0.1.18",
+    "vue-element-loading": "^2.0.2",
+    "vue-moment": "^4.1.0",
+    "vue-notification": "^1.3.20",
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "^3.2.0",
+    "vue-sweetalert2": "^5.0.2",
+    "vue2-google-maps": "^0.10.7",
+    "vuedraggable": "^2.24.3",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^6.5.95",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  }
+}
