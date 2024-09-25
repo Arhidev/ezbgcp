@@ -3,7 +3,7 @@ env: flex
 
 runtime_config:
     operating_system: "ubuntu22"
-    document_root: .
+    document_root: public
 
 # Ensure we skip ".env", which is only for local development
 skip_files: 
